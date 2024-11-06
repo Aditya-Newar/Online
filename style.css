@@ -28,3 +28,8 @@ body {
     background-color: #bbdb9b;
     font-size: 1.5em;
 }
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
