@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #8d9d90;
+}
+.calculator {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #9db4ab;
+    box-shadow: 0 4px 10px #151515
+}
+#display {
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #bbdb9b;
+    font-size: 1.5em;
+}
